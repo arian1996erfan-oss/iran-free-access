@@ -1,0 +1,15 @@
+# config.example.json
+{
+  "protocol": "VLESS",
+  "server": "example.com",
+  "port": 443,
+  "uuid": "your-uuid-here",
+  "flow": "xtls-rprx-vision",
+  "encryption": "none",
+  "security": "reality",
+  "sni": "www.google.com",
+  "fingerprint": "chrome",
+  "publicKey": "your-public-key-here",
+  "shortId": "your-short-id-here",
+  "spiderX": "/"
+}
