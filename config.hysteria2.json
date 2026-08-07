@@ -1,0 +1,21 @@
+# config.hysteria2.json
+{
+  "server": "example.com:443",
+  "auth": "your-auth-password",
+  "tls": {
+    "sni": "www.google.com",
+    "insecure": false
+  },
+  "bandwidth": {
+    "up": "100 mbps",
+    "down": "100 mbps"
+  },
+  "quic": {
+    "initStreamReceiveWindow": 16777216,
+    "maxStreamReceiveWindow": 16777216,
+    "initConnReceiveWindow": 33554432,
+    "maxConnReceiveWindow": 33554432
+  },
+  "fastOpen": true,
+  "lazy": true
+}
